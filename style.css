@@ -1,0 +1,55 @@
+@viewport {
+  width: device-width;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+:root {
+  font-family: monospace;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+}
+body {
+  background-color: #ea5454;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header button {
+  width: 250px;
+  height: 3.5em;
+  border-radius: 7px;
+  background-color: lightpink;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+header h1 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.numbers {
+  font-size: 2rem;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#main .numbers {
+  font-size: 3rem;
+}
+.dynamic-span {
+  margin: 0 10px 0 10px;
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
